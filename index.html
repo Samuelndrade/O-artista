@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal do Artista</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 20px;
+            min-height: 70px;
+            border-bottom: #ccc 1px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2em;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .artist-photo {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+            border-radius: 5px;
+        }
+        .about {
+            margin: 20px 0;
+        }
+        .releases {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .releases img {
+            width: 100px;
+            height: auto;
+            margin: 10px;
+            border-radius: 5px;
+            transition: transform 0.3s;
+        }
+        .releases img:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Página Principal do Artista</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Nome do Artista</h2>
+            <img src="imagens/artista.jpg" alt="Foto do Artista" class="artist-photo">
+            <div class="about">
+                <p>O artista é um renomado criador com uma carreira marcada por inovações e contribuições significativas no mundo da arte e entretenimento. Com uma vasta gama de trabalhos que vão desde filmes emocionantes a livros impactantes e álbuns memoráveis, o artista continua a cativar e inspirar audiências ao redor do mundo.</p>
+            </div>
+            <h3>Lançamentos</h3>
+            <div class="releases">
+                <a href="filme.html">
+                    <img src="imagens/filme.jpg" alt="Lançamento do Filme">
+                </a>
+                <a href="livro.html">
+                    <img src="imagens/livro.jpg" alt="Lançamento do Livro">
+                </a>
+                <a href="musica.html">
+                    <img src="imagens/musica.jpg" alt="Lançamento do Álbum">
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
