@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento do Livro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 20px;
+            min-height: 70px;
+            border-bottom: #ccc 1px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2em;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .book-cover {
+            width: 100%;
+            max-width: 200px;
+            display: block;
+            margin: 0 auto;
+        }
+        .summary {
+            margin: 20px 0;
+        }
+        .index {
+            margin: 20px 0;
+        }
+        .index ol {
+            padding-left: 20px;
+        }
+        .index li {
+            margin: 10px 0;
+        }
+        .index li ul {
+            padding-left: 20px;
+        }
+        .price {
+            font-size: 1.2em;
+            margin: 20px 0;
+        }
+        .buy-now {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 20px;
+            color: #fff;
+            background: #333;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .buy-now:hover {
+            background: #555;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Lançamento do Livro</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Título do Livro</h2>
+            <img src="images/livro.jpg" alt="Capa do Livro" class="book-cover">
+            <div class="summary">
+                <p>Descubra a nova obra do artista, onde a <em>aventura</em> e a <em>emoção</em> se entrelaçam em uma narrativa envolvente. Cada página promete uma experiência única e <em>transformadora</em> para os leitores.</p>
+            </div>
+            <h3>Gênero</h3>
+            <p><strong>Ficção Científica</strong></p>
+            <h3 class="index">Índice</h3>
+            <ol>
+                <li>Capítulo 1: O Início
+                    <ul>
+                        <li>Introdução ao Mundo</li>
+                        <li>Primeiros Personagens</li>
+                    </ul>
+                </li>
+                <li>Capítulo 2: A Jornada</li>
+                <li>Capítulo 3: Desafios
+                    <ul>
+                        <li>Desafio 1: A Travessia</li>
+                        <li>Desafio 2: O Enigma</li>
+                    </ul>
+                </li>
+                <li>Capítulo 4: Revelações</li>
+                <li>Capítulo 5: Conclusão</li>
+            </ol>
+            <p class="price">Preço: R$ 29,90</p>
+            <a href="https://www.amazon.com.br" class="buy-now" target="_blank">Compre Agora</a>
+        </div>
+    </div>
+</body>
+</html>

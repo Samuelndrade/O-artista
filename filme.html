@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lançamento do Filme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 20px;
+            min-height: 70px;
+            border-bottom: #ccc 1px solid;
+        }
+        header h1 {
+            text-align: center;
+            margin: 0;
+            font-size: 2em;
+        }
+        .content {
+            padding: 20px;
+            background: #fff;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+        .poster {
+            width: 100%;
+            max-width: 300px;
+            display: block;
+            margin: 0 auto;
+        }
+        .synopsis {
+            margin: 20px 0;
+        }
+        .streaming-platforms ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .streaming-platforms li {
+            margin: 5px 0;
+        }
+        iframe {
+            width: 100%;
+            height: 315px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>O Grande Lançamento</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content">
+            <h2>Título do Filme</h2>
+            <img src="images/filme.jpg" alt="Pôster do Filme" class="poster">
+            <div class="synopsis">
+                <p>O filme <em>excitante</em> que todos estavam esperando está finalmente aqui! Em um mundo onde a <strong>aventura</strong> e o <strong>mistério</strong> se encontram, nossos heróis embarcam em uma jornada épica para salvar o universo.</p>
+            </div>
+            <h3>Gênero</h3>
+            <p><strong>Ação, Aventura</strong></p>
+            <h3>Trailer</h3>
+            <iframe src="https://www.youtube.com/embed/SEuExemploDoTrailer" allowfullscreen></iframe>
+            <h3>Plataformas de Stream</h3>
+            <div class="streaming-platforms">
+                <ul>
+                    <li><a href="https://www.netflix.com" target="_blank">Netflix</a></li>
+                    <li><a href="https://www.amazon.com.br" target="_blank">Amazon Prime Video</a></li>
+                    <li><a href="https://www.hulu.com" target="_blank">Hulu</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
